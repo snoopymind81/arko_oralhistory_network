@@ -1,0 +1,11 @@
+echo "# arko_oralhistory_network" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:snoopymind81/arko_oralhistory_network.git
+git push -u origin main
+git remote add origin git@github.com:snoopymind81/arko_oralhistory_network.git
+git branch -M main
+git push -u origin main
+git checkout -t -b master origin/master
