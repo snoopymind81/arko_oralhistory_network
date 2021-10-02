@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "LIST"
+  },
+  "text": {
+    "more": "ARKO 구술채록 온톨로지 인물 관계망 ver0.1\n\nhyunsoo.kim@li-st.com",
+    "intro": "ARKO 구술채록 온톨로지 인물 관계망 ver0.1",
+    "title": "ARKO_ORALHISTORY_NETWORK"
+  },
+  "legend": {
+    "edgeLabel": "관계",
+    "colorLabel": "장르",
+    "nodeLabel": "인물_대표명"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "장르1",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
