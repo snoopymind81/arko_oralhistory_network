@@ -33,25 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-<<<<<<< HEAD
       "defaultLabelSize": 14
-=======
-      "defaultLabelSize": 50
->>>>>>> 5c131291c6c8404237171add9ca1934fad22380e
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
-<<<<<<< HEAD
-      "maxNodeSize": 7
-=======
-      "maxNodeSize": 50
->>>>>>> 5c131291c6c8404237171add9ca1934fad22380e
+      "maxNodeSize": 15
     },
     "mouseProperties": {
       "maxRatio": 20,
