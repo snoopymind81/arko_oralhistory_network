@@ -8,23 +8,23 @@
     "text": "LIST"
   },
   "text": {
-    "more": "ARKO 인물 네트워크",
-    "intro": "ARKO 인물 네트워크",
-    "title": "ARKO_NET"
+    "more": "ARKO 구술채록 온톨로지 인물 관계망 ver0.2\n\nhyunsoo.kim@li-st.com",
+    "intro": "ARKO 구술채록 온톨로지 인물 관계망 ver0.2",
+    "title": "ARKO_ORALHISTORY_NETWORK"
   },
   "legend": {
-    "edgeLabel": "source target",
-    "colorLabel": "genre",
-    "nodeLabel": "Label"
+    "edgeLabel": "관계",
+    "colorLabel": "장르",
+    "nodeLabel": "인물_대표명"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
-    "hoverBehavior": "dim"
+    "groupSelectorAttribute": "장르1",
+    "hoverBehavior": "default"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
-    "imageAttribute": "Out-Degree"
+    "groupByEdgeDirection": true,
+    "imageAttribute": "In-Degree"
   },
   "sigma": {
     "drawingProperties": {
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 1,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 10
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 20
     },
     "mouseProperties": {
       "maxRatio": 20,
